@@ -1,0 +1,38 @@
+.weatherAppContainer {
+    border-radius: 25px;
+    background-color: #222831;
+    color: black;
+    height: 500px; 
+}   
+
+.weatherSide {
+    position: relative;
+    height: 100%;
+    border-radius: 25px;
+    width: 300px;
+    transition: transform 300ms ease;
+    transform: translateZ(0) scale(1.02) perspective(1000px);
+}
+
+/* .location:hover{
+    transform: scale(1.05) perspective(1500px) rotateY(10deg);
+} */
+
+.location {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.weather {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+  

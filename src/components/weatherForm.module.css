@@ -1,0 +1,14 @@
+.weatherFormInput {
+   box-sizing: border-box;
+   height: 30px;
+   width: 200px;
+   border-radius: 24px;
+   /* margin-top: 15px; */
+   background-color: whitesmoke;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+   margin-top: 25px;
+}
